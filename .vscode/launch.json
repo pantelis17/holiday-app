@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HolidayApp last3",
+            "request": "launch",
+            "mainClass": "com.assignment.HolidayApp",
+            "projectName": "holidayapp",
+            "args": ["last3", "US"]
+        },
+        {
+            "type": "java",
+            "name": "HolidayApp common_holidays",
+            "request": "launch",
+            "mainClass": "com.assignment.HolidayApp",
+            "projectName": "holidayapp",
+            "args": ["common_holidays", "2022", "GR", "US"]
+        }
+    ]
+}
